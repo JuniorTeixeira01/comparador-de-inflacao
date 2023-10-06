@@ -1,0 +1,102 @@
+@media (min-width: 380px) and (max-width: 520px) {
+    .container-topo_titulo h2{
+        font-size: 18px;
+    }
+
+    button{
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+        font-size: 10px ;
+    }
+    .lista_salarios{
+        width: 230px;
+        height: 320px;
+    }
+    ul{
+        font-size: 10px;
+    }
+    .A{
+        position: absolute;
+        left: 40px;
+        top: 30px;
+    }
+    .B{
+        position: absolute;
+        left: 40px;
+        top: 30px;
+    }
+    .C{
+        position: absolute;
+        left: 40px;
+        top: 30px;
+    }
+
+}
+@media (min-width: 520px) and (max-width: 780px) {
+
+    button{
+        width: 180px;
+        height: 80px;
+        padding: 20px;
+    }
+    .lista_salarios{
+        width: 280px;
+        height: 350px;
+    }
+    ul{
+        font-size: 12px;
+    }
+    .A{
+        position: absolute;
+        left: 200px;
+        top: 30px;
+    }
+    .B{
+        position: absolute;
+        left: 200px;
+        top: 30px;
+    }
+    .C{
+        position: absolute;
+        left: 200px;
+        top: 30px;
+    }
+}
+@media (min-width: 780px) and (max-width: 900px) {
+    button{
+        width: 250px;
+    }
+    .A{
+        position: absolute;
+        left: 250px;
+        top: 10px;
+    }
+    .B{
+        position: absolute;
+        left: 250px;
+        top: 10px;
+    }
+    .C{
+        position: absolute;
+        left: 250px;
+        top: 10px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1024px){
+    .A{
+        position: absolute;
+        left: 280px;
+        top: 10px;
+    }
+    .B{
+        position: absolute;
+        left: 280px;
+        top: 10px;
+    }
+    .C{
+        position: absolute;
+        left: 280px;
+        top: 10px;
+    }
+}

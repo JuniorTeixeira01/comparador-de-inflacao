@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #BFA68F;
+    color: #EAF205;
+    color: #83A603;
+    color: #4F7302;
+    color: #070826;
+}
+.container-topo_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #070826;
+}
+.container-topo_titulo h2{
+    color: #BFA68F;
+}
+.container-conteudo{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border-right: 30px solid #070826;
+    border-left: 30px solid #070826;
+}
+.containers-butoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.containers-butoes-conteudos{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.lista_salarios{
+    width: 300px;
+    height: 400px;
+    margin-top: 5px;
+    background-color: #EAF205;
+}
+.A{
+    position: absolute;
+    left: 97px;
+}
+.B{
+    position: absolute;
+    left: 495px;
+}
+.C{
+    position: absolute;
+    right: 97px;
+}
+ul{
+    font-size: 15px;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    padding-left: 8px;
+    text-align: left;
+    margin-top: 10px;
+    color: black;
+    border-bottom: 1px solid #070826;
+}
+button{
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+    padding: 20px;
+    color: #EAF205;
+    background-color: #070826;
+    cursor: pointer;
+}
+.container-final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #070826;
+    height: 60px;
+}
+.container-final p{
+    color: #BFA68F;
+    font-size: large;
+}

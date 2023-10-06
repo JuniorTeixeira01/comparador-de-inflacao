@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobili.css">
+    <title>Comparador de Salário e Inflação</title>
+</head>
+<body>
+    <header class="container-topo">
+          <div class="container-topo_titulo"><h2>Comparador de Salário e Inflação</h2></div>
+    </header>
+    <main class="container-conteudo">
+       <div class="containers-butoes">
+          <button type="button" onclick="mudarestado('salarios')">Listar os salários minimos de 2010 a 2023</button>
+        
+          <button type="button" onclick="mudarestado('IPCA')">Listar o índice IPCA de 2010 a 2023</button>
+        
+          <button type="button" onclick="mudarestado('comparacao')">Comparação entre o percentual de aumento salarial e o IPCA</button>
+        </div>
+
+        <div class="containers-butoes-conteudos">
+          <div id="salarios" class="lista_salarios A"></div>
+
+          <div id="IPCA" class="lista_salarios B"></div>
+
+          <div id="comparacao" class="lista_salarios C"><div>
+
+        </div>      
+                
+    </main>
+    <footer>
+        <div class="container-final">
+            <p> &copy; Desenvolvido por Junior Teixeira</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
